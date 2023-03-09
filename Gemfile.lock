@@ -79,10 +79,7 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
-    erb2haml (0.1.5)
-      html2haml
     erubi (1.12.0)
-    erubis (2.7.0)
     ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -95,11 +92,6 @@ GEM
       activesupport (>= 5.1)
       haml (>= 4.0.6)
       railties (>= 5.1)
-    html2haml (2.3.0)
-      erubis (~> 2.7.0)
-      haml (>= 4.0)
-      nokogiri (>= 1.6.0)
-      ruby_parser (~> 3.5)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.5)
@@ -178,8 +170,6 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.7.0)
     rexml (3.2.5)
-    ruby_parser (3.20.0)
-      sexp_processor (~> 4.16)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -196,7 +186,9 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     semantic_range (3.0.0)
-    sexp_processor (4.16.1)
+    simple_form (5.2.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -243,7 +235,6 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
-  erb2haml
   haml-rails
   jbuilder (~> 2.7)
   listen (~> 3.3)
@@ -253,6 +244,7 @@ DEPENDENCIES
   rails (~> 6.1.0)
   sass-rails (>= 6)
   selenium-webdriver
+  simple_form
   spring
   turbolinks (~> 5)
   tzinfo-data
